@@ -146,6 +146,7 @@
       border-style: solid;
       border-color: black;
       border-width: thin;
+      margin: 10px;
     }
 
     .right {
