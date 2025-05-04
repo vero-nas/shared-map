@@ -87,6 +87,7 @@
     }
 
     .page-wrapper{
+        display: none;
         margin: 0px;
         background-color: white;
         border: none;
@@ -142,10 +143,6 @@
     .column{
       float: right;
       width: 32%;
-      border-style: solid;
-      border-width: thin;
-      border-color: black;
-      margin: 10px 10px 10px 10px;
     }
 
     .right {
