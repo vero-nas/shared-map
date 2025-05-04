@@ -142,6 +142,8 @@
     .column{
       float: right;
       width: 32%;
+      border: black;
+      border-width: thin;
     }
 
     .right {
