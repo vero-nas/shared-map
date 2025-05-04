@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+<title>Shared Map</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    
+    <div class="page-wrapper" id="page-wrapper">
+        <div class="header">
+            <div class="h1-a">Shared Map </div>
+        </div>
+
+        <iframe 
+                src="https://www.google.com/maps/d/embed?mid=1RFkSzsxQTBXk0AZ_LP3dKO8_z6I8mT4&ehbc=2E312F&noprof=1" 
+                width="800" 
+                height="480" 
+                frameborder="0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="column"> 
+                <p> To add your location, please follow this link: 
+                    <a class="link" href="https://www.google.com/maps/d/edit?mid=1RFkSzsxQTBXk0AZ_LP3dKO8_z6I8mT4&usp=sharing" target="_blank" rel="noopener noreferrer"> Shared Map Project</a>.
+                </br>
+                    Type the location into the search bar, click on the marker that appears on the location and click the option for "Add to the Map"!
+                </p>
+                
+            </div>
+    </div>
+    <script>
+        let password = "ywedjhsdjhd33298";
+        (function passcodeprotect() {
+            let passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+                alert("Incorrect PassCode");
+                return passcodeprotect();
+            }
+        }());
+        alert('Welcome To The Shared Map..!');
+        document.getElementById("page-wrapper")
+            .style.display = "block";
+    </script>
+</body>
+
